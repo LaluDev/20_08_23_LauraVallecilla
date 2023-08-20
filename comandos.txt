@@ -1,0 +1,16 @@
+  178  touch main.js index.html
+  179  git add .
+  180  git commit -m "commit 01 de LauraVallecilla"
+  181  git push origin main
+  182  git branch feature
+  183  git checkout feature
+  184  mkdir Hardware
+  185  mkdir Software SeguridadInformatica
+  186  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  187  git add .
+  188  git commit -m "commit 02 de LauraVallecilla"
+  189  git push origin feature
+  190  git checkout main  
+  191  mv main.js resumenHardware.txt
+  192  mv index.html resumenSoftware.txt
+  193  touch comandos.txt
